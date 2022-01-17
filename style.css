@@ -1,0 +1,80 @@
+.header-container {
+    margin: 50px;
+
+}
+
+.container-camera {
+    display: flex;
+
+    margin: 50px;
+
+}
+
+
+
+#font-text {
+    font-size: 3.5em;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+#influen {
+
+    padding-right: 600px;
+}
+
+#first-camera img {
+    padding-right: 100px;
+}
+
+
+#first-camera:hover {
+    transform: translate(-100px);
+    transition: transform 1s ease-in;
+
+}
+
+#font {
+
+    font-size: 2.5em;
+
+}
+
+#popular {
+    text-align: center;
+    font-size: 3em;
+}
+
+#icon {
+    margin-top: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    margin-right: 15px;
+
+}
+
+#prebook {
+    border: 1px solid white;
+    background-color: #ff0080;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 25px;
+}
+
+@media (max-width:700px) {
+    .container-camera {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
